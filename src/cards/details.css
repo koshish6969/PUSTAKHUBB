@@ -1,0 +1,87 @@
+.selected-book
+{
+  font-family: 'Poppins';
+  display:grid;
+  grid-template-columns: 17% 53% 30%;
+  margin-top: 60px;
+}
+
+.details_img
+{
+  height: 290px;
+  width:200px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+.det_pri
+{
+  font-weight:normal;
+}
+
+.book-title
+{
+  font-size: 35px;
+}
+
+.book_info
+{
+ text-align: left;
+ margin-left: 20px;
+}
+
+.container
+{
+  background-color: rgb(255,165,0,0.4);
+  border-radius: 30px;
+  margin-left: 100px;
+  height:290px;
+  width: 300px;
+}
+
+.det_btn
+{
+  font-family: "Poppins";
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding:10px 40px;
+    background-color: orange;
+    border-width: 0px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.det_btn:hover
+{
+  font-family: "Poppins";
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding:10px 40px;
+    background-color: black;
+    border-width: 0px;
+    font-size: 25px;
+    cursor: pointer;
+    
+
+}
+
+.author
+{
+  color: grey;
+}
+
+
+
+
+.location
+{
+ 
+  font-size: 13px;
+}
+
+.uploader
+{
+  margin-left: 23px;
+}

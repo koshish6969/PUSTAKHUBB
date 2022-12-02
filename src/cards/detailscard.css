@@ -1,0 +1,87 @@
+.det_body
+{   height: 290px;
+
+ 
+    
+    display: grid;
+     grid-template-columns: 37% 23% 40%;
+ 
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+   
+}
+
+.det_img
+{
+
+    height:100%;
+    width: 170px;
+  border-radius:30px;
+}
+
+
+.det_main
+{
+  
+    margin-bottom: 30px;
+    background-color:  rgb(255,165,0,0.4);
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+
+.det_det
+{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.det_card_btn_main
+{   
+    margin-top: 210px;
+   
+}
+
+.det_card_btn
+{
+    font-family: "Poppins";
+    color: white;
+    border-radius: 30px;
+ 
+    background-color: orange;
+
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.det_card_btn:hover
+{
+    font-family: "Poppins";
+    color: white;
+    border-radius: 30px;
+ 
+    background-color:black;
+
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.det_name
+{
+    text-align: left;
+    font-weight: normal;
+}
+
+
+.det_price
+{
+    text-align: left;
+}

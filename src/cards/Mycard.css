@@ -1,0 +1,97 @@
+/* .mycard {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    min-width: 300px;
+    max-width: 300px;
+    height: 420px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    padding:0 10%; */
+
+
+
+/* .img_photo
+{
+    padding-right: 30px;
+    height:60px;
+} */
+
+.card_main
+{ 
+    
+    border:0.1px solid black;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    
+    height:350px;
+ 
+   
+}
+
+.card_img
+{
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.card_body
+{ display: grid;
+    grid-template-columns: 25% 35% 40%;
+    
+    margin-bottom: 50px;
+
+
+ 
+
+}
+
+.card_det
+{
+    text-align: left;
+    margin-top: 40px;
+   
+}
+
+
+.card_btn
+{
+    height:50px;
+    width:200px;
+    background-color: orange;
+    border-width: 0px;
+    border-radius: 30px;
+    color:white;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.card_btn:hover
+{
+
+    background-color: black;
+    
+}
+
+.card_name{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.card_price
+{
+    color:orange;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+
+.seller_name
+{
+    margin-top: -10px;
+}

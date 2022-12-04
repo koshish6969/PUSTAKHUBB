@@ -1,7 +1,7 @@
 .cat_main
 {
     display:grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 24% 55% 21%; 
     margin-top: 20px;
 }
 
@@ -59,4 +59,29 @@
 {
     color:orange;
 
+}
+
+
+.cat_o
+{
+    background-color: rgb(231, 231, 231);
+    width: 250px;
+border-radius: 30px;
+list-style-type: none;
+margin-left: 25px;
+text-align: left;
+height: 550px;  
+}
+
+.para_o
+{
+    color:black;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+    font-weight: bold;
 }

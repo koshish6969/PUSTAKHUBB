@@ -10,7 +10,7 @@ import clipart5 from './components/clipart5.jpg'
 
 const Category = () => {
   return (
-    <>
+    <div id="category">
   
    
     <h1 className="cat_name">Categories</h1>
@@ -42,7 +42,7 @@ const Category = () => {
     </div>
 
 
-</>
+</div>
     
     
   )

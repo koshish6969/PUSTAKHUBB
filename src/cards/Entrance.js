@@ -28,6 +28,12 @@ const BuyingPage = () => {
     
     
     </div>
+    <div className="cat_o">
+        
+    <p className="para_o">Filters</p>
+    <hr/>
+   
+    </div> 
 
    </div>
 

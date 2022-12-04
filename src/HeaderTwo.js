@@ -7,7 +7,7 @@ import { Link as Link1 } from 'react-scroll';
 import { Link as Link2 } from 'react-router-dom';
 
 
-function Header() {
+function HeaderTwo() {
    
   return (
     <div className='header'>
@@ -16,9 +16,9 @@ function Header() {
     
     <div className="header_option">
     <ul>
-            <li><Link1 to = "home" spy={true} smooth={true} offset={-150} duration={500}>Home</Link1></li>
-       <li><Link1 to ="category" spy={true} smooth={true} offset={-100} duration={500}>Categories</Link1></li> 
-          <li><Link1  to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link1></li>
+            <li><Link2 to = "/">Home</Link2></li>
+       <li><Link2 to ="/categories" >Categories</Link2></li> 
+          <li><Link2  to="/about">About</Link2></li>
         </ul>
       </div>
       <div className="header_icons">
@@ -35,7 +35,7 @@ function Header() {
 }
 
 
-export default Header
+export default HeaderTwo
 
 const addSearchData=()=>
 {

@@ -22,12 +22,12 @@ const Imagecarousel = () => {
            
             
             
-                <Mycard  name="+2 Biology" img={book1}  seller="Ram" price="Rs. 550"  />
-                <Mycard  name="+2 Chemistry" img={book2} seller="Nhujaw" price="Rs. 600"/>
-                <Mycard  name="+2 Mathematics" img={book3} seller="Koshish" price="Rs. 300" />
-                <Mycard  name="+2 Physics" img={book4} seller="Kabita" price="Rs.1000"/>
-                <Mycard  name="+2 Business" img={book5} seller="Krishna" price="Rs.2000"/>
-                <Mycard  name="+2 Account" img={entrance} seller="Mbappe" price="Rs. 150"/>
+                <Mycard  name="Physics Guide" img={book1}  seller="Ram" price="Rs. 550"   s="Uploaded By : Koshish Shrestha"/>
+                <Mycard  name="Chemistry Book" img={book2} seller="Nhujaw" price="Rs. 600" s="Uploaded By : Koshish Shrestha"/>
+                <Mycard  name="Engineering Mathematics" img={book3} seller="Koshish" price="Rs. 300" s="Uploaded By : Koshish Shrestha" />
+                <Mycard  name="Engineering Physics" img={book4} seller="Kabita" price="Rs.1000" s="Uploaded By : Koshish Shrestha"/>
+                <Mycard  name=" Business" img={book5} seller="Krishna" price="Rs.2000" s="Uploaded By : Koshish Shrestha"/>
+                <Mycard  name="Account" img={entrance} seller="Mbappe" price="Rs. 150" s="Uploaded By : Koshish Shrestha"/>
     
         
         </div>

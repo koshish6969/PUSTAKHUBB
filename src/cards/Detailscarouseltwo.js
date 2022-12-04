@@ -20,10 +20,10 @@ const Detailscarouseltwo = () => {
      
     
             <div className="details_card_cat">
-            <Detailscard  name="Insights on Accountancy" img={book1}  seller="Ram" price="Rs. 550"  />
+            <Detailscard  name=" Basic Electronics" img={book1}  seller="Ram" price="Rs. 550"  />
 
             <Detailscard  name="Engineering Physics" img={book3} seller="Krishna" price="Rs.2000"/>
-            <Detailscard  name="Basic Electronics Engineering" img={book4} seller="Mbappe" price="Rs. 150"/>
+            <Detailscard  name="Insights on Mechanics" img={book4} seller="Mbappe" price="Rs. 150"/>
                 </div>
         
         </div>

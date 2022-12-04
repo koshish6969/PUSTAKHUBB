@@ -1,12 +1,15 @@
 import { useState } from "react";
 import "./signup.css";
 import FormInput from "../form/FormInput.js";
+import HeaderTwo from "../HeaderTwo";
+import Footer from "../Footer";
 
 const SignUp = () => {
   const [values, setValues] = useState({
     username: "",
     email: "",
     birthday: "",
+    contactno:"",
     password: "",
     confirmPassword: "",
   });
@@ -41,6 +44,17 @@ const SignUp = () => {
     },
     {
       id: 4,
+      name: "ContactNo",
+      errorMessage:"Please enter valid phone number!",
+      placeholder: "Contact No.",
+      label: "ContactNo",
+      pattern: "^[0-9]+$",
+      required:true,
+  
+
+    },
+    {
+      id: 5,
       name: "password",
       type: "password",
       placeholder: "Password",
@@ -51,7 +65,7 @@ const SignUp = () => {
       required: true,
     },
     {
-      id: 5,
+      id: 6,
       name: "confirmPassword",
       type: "password",
       placeholder: "Confirm Password",
@@ -70,7 +84,10 @@ const SignUp = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
+  console.log(values);
   return (
+    <>
+  
     <div className="app">
     <h1 className="btn_reg">Register</h1>
       <form className="signup_f" onSubmit={handleSubmit}>
@@ -86,6 +103,8 @@ const SignUp = () => {
         <button  className="btn_signup">Submit</button>
       </form>
     </div>
+   
+    </>
   );
 };
 

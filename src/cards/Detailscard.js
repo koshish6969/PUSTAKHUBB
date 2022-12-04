@@ -14,14 +14,14 @@ const Detailscard = (props) => {
         <img className="det_img" src={props.img}/>
         <div className="det_det">
         <h2 className="det_name"> {props.name}</h2>
-        <p className='det_name'>{props.seller}</p>
+        <p className='det_sell'>By {props.seller}</p>
             <p className="det_price">{props.price}</p>
-            
-            </div>
-            
-            <div className="det_card_btn_main">
+                
          <Link to="/details" >  <button className="det_card_btn">View Details</button> </Link>
             </div>
+            
+        
+           
             </div>
         </div>
         

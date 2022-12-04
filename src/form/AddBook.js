@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./AddBook.css";
+import HeaderTwo from "../HeaderTwo";
+import Footer from "../Footer";
 
 
 
@@ -88,6 +90,7 @@ class AddBook extends Component {
   render() {
     return (
       <>
+      
         <div className="box">
         <h1 className="add_tit">Add a new book</h1>
         <form className="addbook_f">
@@ -164,6 +167,7 @@ class AddBook extends Component {
           </div>
         </form>
         </div>
+       
       </>
     );
   }

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import insta from "./components/insta.png"
+import facebook from "./components/facebook.png"
+import twitter from "./components/twitter.png"
 
 function Footer() {
   return (
@@ -13,19 +16,19 @@ function Footer() {
           {/* Column2 */}
           <div className="col_two">
             <h4>Contact Us</h4>
-            <ui className="list-unstyled">
+            <ul className="list-unstyled">
               <li>+977-9811112390</li>
               <li>contact@pustakhub.com</li>
-            </ui>
+            </ul>
           </div>
           {/* Column3 */}
           <div className="col_three">
             <h4>Follow Us</h4>
-            <ui className="list-unstyled">
-              <li>Twitter</li>
-              <li>Facebook</li>
-              <li>Instagram</li>
-            </ui>
+              <div className="footer_img">
+              <img className="fot_img" src={insta}></img>
+              <img className="fot_img" src={facebook}></img>
+              <img className="fot_img"src={twitter}></img>
+              </div>
           </div>
           </div>
     <hr/>

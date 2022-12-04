@@ -20,27 +20,31 @@
 .card_main
 { 
     
-    border:0.1px solid black;
+    border:0.1px solid rgb(179, 179, 179);
     border-radius: 30px;
     margin-bottom: 15px;
     margin-right: 100px;
+    width:800px;
+    height:180px;
     
-    height:350px;
  
    
+}
+.card_main:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .card_img
 {
-    height: 300px;
-    border-radius: 30px;
-    margin-top: 25px;
+    height: 150px;
+   
+    margin-top: 15px;
     margin-left: 30px;
 }
 
 .card_body
 { display: grid;
-    grid-template-columns: 25% 35% 40%;
+    grid-template-columns: 18% 60% 22%;
     
     margin-bottom: 50px;
 
@@ -52,7 +56,7 @@
 .card_det
 {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 1px;
    
 }
 
@@ -60,14 +64,14 @@
 .card_btn
 {
     height:50px;
-    width:200px;
+    width:120px;
     background-color: orange;
     border-width: 0px;
     border-radius: 30px;
     color:white;
-    font-size: 20px;
-    margin-left: 150px;
-    margin-top: 150px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 69px;
     cursor: pointer;
 }
 
@@ -81,17 +85,28 @@
 .card_name{
     font-weight: bold;
     margin-top: 20px;
+  
+    margin-block-end: 0em;
 }
 .card_price
 {
     color:orange;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 1px;
+   
     
 }
 
 .seller_name
-{
-    margin-top: -10px;
+{   margin-top:0px;
+    margin-block-end: 0em;
+    color:rgb(196, 196, 196);
+}
+
+.s_name 
+{    margin-block-start: 0em;
+    padding-top: 10px;
+    font-size: 13px;
+    margin-block-end: 0em;
 }

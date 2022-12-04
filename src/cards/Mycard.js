@@ -19,6 +19,7 @@ const Mycard = (props) => {
         <h2 className="card_name"> {props.name}</h2>
         <p className='seller_name'>{props.seller}</p>
             <p className="card_price">{props.price}</p>
+            <p className="s_name">{props.s}</p>
             
             </div>
           <Link to="/details"> <button className="card_btn">View Details</button> </Link> 

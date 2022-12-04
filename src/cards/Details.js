@@ -14,11 +14,13 @@ const Details = () => {
             <p className="author">By Ram Hari Prasad</p>
            
             <div className="deets">
-            <div className="Price">Original Price : Rs. 2000</div>
+    
             <br/>
             <div className="Condition">Condition : Almost new</div>
             <br/>
             <div className="Year">Publication year : 1995</div>
+            <br/>
+            <div className="location">Location: Kalimati, Kathmandu</div>
         </div>
         </div>
   
@@ -26,24 +28,24 @@ const Details = () => {
      <div className="container"><h1 className='det_pri'>Price: Rs. 900</h1>
      <br/>
 
-          <button  type="button" className="det_btn">Buy Book</button>
+          <button  type="button" className="det_btn">Chat now</button>
       <br/>
             <br/>
           <br/>
           <p>Add to wishlist</p>
     </div>
     <div className="uploader">
-        <div className="Name">Uploaded By: Kubs</div>
-        <p className="location">Kalimati,Kathmandu</p>
-        <div className="Number">Contact No. : 9866682020</div>
+        <div className="Name">Uploaded By: Koshish Shrestha</div>
+        <br/>
+        <div className="Number">Contact No. : 9811122233</div>
      </div>
      </div>
 
      <hr/>
 
-     <div classNameName="line1"></div>
+     <div className="line1"></div>
      <br/>
-     <div classNameName="Container1"><h2 className="det_pri">Other uploads by Kubs</h2> 
+     <div className="Container1"><h2 className="det_pri">Other uploads by Koshish</h2> 
          <br/>
      </div>
      
@@ -51,7 +53,7 @@ const Details = () => {
      <Detailscarousel/>
      <hr/>
 <br/>
-     <div classNameName="Container2"><h2 className="det_pri">Similar Books</h2> 
+     <div className="Container2"><h2 className="det_pri">Similar Books</h2> 
     <br/>
      <Detailscarouseltwo/>
      <br/>

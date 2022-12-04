@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./formInput.css";
 
+
 const FormInput = (props) => {
   const [focused, setFocused] = useState(false);
   const { label, errorMessage, onChange, id, ...inputProps } = props;
@@ -10,7 +11,11 @@ const FormInput = (props) => {
   };
 
   return (
+    <>
+   
     <div className="formInput">
+
+ 
       <label>{label}</label>
       <input
         {...inputProps}
@@ -23,6 +28,8 @@ const FormInput = (props) => {
       />
       <span>{errorMessage}</span>
     </div>
+   
+    </>
   );
 };
 

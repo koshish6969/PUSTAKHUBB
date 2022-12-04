@@ -8,6 +8,7 @@ import book1 from '../components/book1.jpg'
 import book5 from '../components/book5.jpg'
 import book3 from '../components/book3.jpg'
 import book4 from '../components/book4.jpg'
+
 import "./Detailscarousel.css"
 
 const Detailscarousel = () => {
@@ -23,7 +24,7 @@ const Detailscarousel = () => {
             <Detailscard  name="Engineering Physics" img={book5}  seller="Ram" price="Rs. 550"  />
 
             <Detailscard  name="Insights on Accountancy" img={book1} seller="Krishna" price="Rs.2000"/>
-            <Detailscard  name="Basic Electronics Engineering" img={book3} seller="Mbappe" price="Rs. 150"/>
+            <Detailscard  name="Basic Electronics" img={book3} seller="Mbappe" price="Rs. 150"/>
                 </div>
         
         </div>

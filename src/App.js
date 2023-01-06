@@ -15,6 +15,7 @@ import Category from "./Category";
 import About from "./About";
 import Profilepage from "./profile/ProfilePage";
 import HeaderTwoPage from "./HeaderTwoPage";
+import ScrollToTop from "./ScrollToTop";
 import {
   BrowserRouter as Router,
   Route,
@@ -29,6 +30,8 @@ function App() {
   return (
       <div className="App">
       <Header/>
+      <ScrollToTop />
+
   <Routes>
       <Route path="/" element={<HomePage />}></Route>
     

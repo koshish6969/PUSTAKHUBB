@@ -21,7 +21,7 @@ const Category = () => {
     <div className="cat_one">
     <img className="cat_pic" src={clipart1}/>
     <h1 className='cat_name'>+2 Books</h1>
-    <Link to ="/plustwoo"> <button className="button_buyo">Buy Books</button> </Link>
+    <Link to ="/plustwoo" exact> <button className="button_buyo">Buy Books</button> </Link>
     </div>
 
     <div className="cat_two">

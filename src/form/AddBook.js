@@ -20,7 +20,10 @@ class AddBook extends Component {
       selectedFile: null,
       
     };
+<<<<<<< HEAD
   
+=======
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
   }
   
   handlebooknameChange = (event) => {

@@ -15,7 +15,11 @@ import Category from "./Category";
 import About from "./About";
 import Profilepage from "./profile/ProfilePage";
 import HeaderTwoPage from "./HeaderTwoPage";
+<<<<<<< HEAD
 import PrivateComponent from "./privatecomponent";
+=======
+import ScrollToTop from "./ScrollToTop";
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
 import {
   BrowserRouter as Router,
   Route,
@@ -30,6 +34,11 @@ function App() {
   return (
       <div className="App">
       <Header/>
+<<<<<<< HEAD
+=======
+      <ScrollToTop />
+
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
   <Routes>
       <Route path="/" element={<HomePage />}></Route>
     

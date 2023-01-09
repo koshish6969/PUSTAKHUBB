@@ -4,6 +4,7 @@ import "./Header.css"
 import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import { Link as Link1 } from 'react-scroll';
+<<<<<<< HEAD
 import { Link as Link2 , useNavigate} from 'react-router-dom';
 
 
@@ -14,6 +15,12 @@ const logout=()=>{
  localStorage.clear();
  navigate('/signup')
 }
+=======
+import { Link as Link2 } from 'react-router-dom';
+
+
+function Header() {
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
    
   return (
     <div className='header'>
@@ -25,8 +32,11 @@ const logout=()=>{
             <li><Link1 to = "home" spy={true} smooth={true} offset={-150} duration={500}>Home</Link1></li>
        <li><Link1 to ="category" spy={true} smooth={true} offset={-100} duration={500}>Categories</Link1></li> 
           <li><Link1  to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link1></li>
+<<<<<<< HEAD
         <li>{ auth ? <Link2 onClick={logout} to="/login"> Logout </Link2> :
         <Link2 to="/login"> Sign Up </Link2>}</li>
+=======
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
         </ul>
       </div>
       <div className="header_icons">
@@ -40,7 +50,10 @@ const logout=()=>{
       </div>
     </div>
   )
+<<<<<<< HEAD
 
+=======
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
 }
 
 

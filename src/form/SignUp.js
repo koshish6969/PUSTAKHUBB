@@ -1,19 +1,32 @@
 import { useState } from "react";
 import "./signup.css";
 import FormInput from "../form/FormInput.js";
+<<<<<<< HEAD
  
 
 import {useNavigate} from 'react-router-dom'
+=======
+import HeaderTwo from "../HeaderTwo";
+import Footer from "../Footer";
+
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
 const SignUp = () => {
   const [values, setValues] = useState({
     username: "",
     email: "",
     birthday: "",
+<<<<<<< HEAD
     ContactNo:"",
     password: "",
     confirmPassword: "",
   });
   const navigate=useNavigate();
+=======
+    contactno:"",
+    password: "",
+    confirmPassword: "",
+  });
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
 
   const inputs = [
     {
@@ -46,7 +59,10 @@ const SignUp = () => {
     {
       id: 4,
       name: "ContactNo",
+<<<<<<< HEAD
       type:"text",
+=======
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
       errorMessage:"Please enter valid phone number!",
       placeholder: "Contact No.",
       label: "ContactNo",
@@ -78,6 +94,7 @@ const SignUp = () => {
     },
   ];
 
+<<<<<<< HEAD
   const handleSubmit = async (e) => {
     e.preventDefault();
      
@@ -95,13 +112,21 @@ const SignUp = () => {
       navigate('/login');
     }
     
+=======
+  const handleSubmit = (e) => {
+    e.preventDefault();
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
   };
 
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
+<<<<<<< HEAD
   // console.log(values);
+=======
+  console.log(values);
+>>>>>>> d70f6057b2302529c9b40e622475ebcadb04e68a
   return (
     <>
   
